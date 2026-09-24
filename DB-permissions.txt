@@ -1,0 +1,10 @@
+# Database permissions
+
+GRANT USE SCHEMA ON SCHEMA workspace.project_db TO `e26e01c8-ae30-4203-b579-91245168c072`;
+GRANT SELECT ON TABLE workspace.project_db.assets TO `e26e01c8-ae30-4203-b579-91245168c072`;
+GRANT SELECT ON TABLE workspace.project_db.network_interfaces TO `e26e01c8-ae30-4203-b579-91245168c072`;
+GRANT SELECT ON TABLE workspace.project_db.communication_flows TO `e26e01c8-ae30-4203-b579-91245168c072`;
+GRANT SELECT ON TABLE workspace.project_db.software_firmware TO `e26e01c8-ae30-4203-b579-91245168c072`;
+GRANT SELECT ON TABLE workspace.project_db.vulnerabilities TO `e26e01c8-ae30-4203-b579-91245168c072`;
+GRANT SELECT ON TABLE workspace.project_db.relationships TO `e26e01c8-ae30-4203-b579-91245168c072`;
+GRANT SELECT ON TABLE workspace.project_db.readme TO `e26e01c8-ae30-4203-b579-91245168c072`;
